@@ -55,7 +55,7 @@ const NFTDropPage = () => {
         {address && (
           <p className="text-center text-sm text-red-400 ">
             se ha conectado con el monedero {address.substring(0, 5)}...
-            {address.substring(address.length - 5, 0)}
+            {address.substring(address.length - 5)}
           </p>
         )}
 
